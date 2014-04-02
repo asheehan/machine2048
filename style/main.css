@@ -483,6 +483,12 @@ hr {
   display: block;
   clear: both; }
 
+.machine-intro {
+  float: left;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
 .game-intro {
   float: left;
   line-height: 42px;
