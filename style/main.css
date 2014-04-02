@@ -2,10 +2,18 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  color: #eee;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  background: #7996a6; /* Old browsers */
+  background: -moz-linear-gradient(top, #7996a6 0%, #7696a5 1%, #7794a6 7%, #7693a3 7%, #7794a6 8%, #7693a3 9%, #7794a6 9%, #7190a2 17%, #7491a3 17%, #7190a2 18%, #718e9e 22%, #6e8a9f 29%, #6e8b9d 30%, #6d8a9a 30%, #6e8b9d 30%, #6a8799 35%, #6b889a 36%, #6a8799 37%, #678698 38%, #6a8799 38%, #668395 44%, #678398 44%, #668395 45%, #668297 46%, #658294 46%, #668297 46%, #658294 48%, #637f94 52%, #627f91 52%, #627e93 54%, #617e90 54%, #627e93 54%, #607c91 55%, #627e93 55%, #5f7b90 57%, #607c91 59%, #587489 77%, #587489 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7996a6), color-stop(1%,#7696a5), color-stop(7%,#7794a6), color-stop(7%,#7693a3), color-stop(8%,#7794a6), color-stop(9%,#7693a3), color-stop(9%,#7794a6), color-stop(17%,#7190a2), color-stop(17%,#7491a3), color-stop(18%,#7190a2), color-stop(22%,#718e9e), color-stop(29%,#6e8a9f), color-stop(30%,#6e8b9d), color-stop(30%,#6d8a9a), color-stop(30%,#6e8b9d), color-stop(35%,#6a8799), color-stop(36%,#6b889a), color-stop(37%,#6a8799), color-stop(38%,#678698), color-stop(38%,#6a8799), color-stop(44%,#668395), color-stop(44%,#678398), color-stop(45%,#668395), color-stop(46%,#668297), color-stop(46%,#658294), color-stop(46%,#668297), color-stop(48%,#658294), color-stop(52%,#637f94), color-stop(52%,#627f91), color-stop(54%,#627e93), color-stop(54%,#617e90), color-stop(54%,#627e93), color-stop(55%,#607c91), color-stop(55%,#627e93), color-stop(57%,#5f7b90), color-stop(59%,#607c91), color-stop(77%,#587489), color-stop(100%,#587489)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7996a6 0%,#7696a5 1%,#7794a6 7%,#7693a3 7%,#7794a6 8%,#7693a3 9%,#7794a6 9%,#7190a2 17%,#7491a3 17%,#7190a2 18%,#718e9e 22%,#6e8a9f 29%,#6e8b9d 30%,#6d8a9a 30%,#6e8b9d 30%,#6a8799 35%,#6b889a 36%,#6a8799 37%,#678698 38%,#6a8799 38%,#668395 44%,#678398 44%,#668395 45%,#668297 46%,#658294 46%,#668297 46%,#658294 48%,#637f94 52%,#627f91 52%,#627e93 54%,#617e90 54%,#627e93 54%,#607c91 55%,#627e93 55%,#5f7b90 57%,#607c91 59%,#587489 77%,#587489 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7996a6 0%,#7696a5 1%,#7794a6 7%,#7693a3 7%,#7794a6 8%,#7693a3 9%,#7794a6 9%,#7190a2 17%,#7491a3 17%,#7190a2 18%,#718e9e 22%,#6e8a9f 29%,#6e8b9d 30%,#6d8a9a 30%,#6e8b9d 30%,#6a8799 35%,#6b889a 36%,#6a8799 37%,#678698 38%,#6a8799 38%,#668395 44%,#678398 44%,#668395 45%,#668297 46%,#658294 46%,#668297 46%,#658294 48%,#637f94 52%,#627f91 52%,#627e93 54%,#617e90 54%,#627e93 54%,#607c91 55%,#627e93 55%,#5f7b90 57%,#607c91 59%,#587489 77%,#587489 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7996a6 0%,#7696a5 1%,#7794a6 7%,#7693a3 7%,#7794a6 8%,#7693a3 9%,#7794a6 9%,#7190a2 17%,#7491a3 17%,#7190a2 18%,#718e9e 22%,#6e8a9f 29%,#6e8b9d 30%,#6d8a9a 30%,#6e8b9d 30%,#6a8799 35%,#6b889a 36%,#6a8799 37%,#678698 38%,#6a8799 38%,#668395 44%,#678398 44%,#668395 45%,#668297 46%,#658294 46%,#668297 46%,#658294 48%,#637f94 52%,#627f91 52%,#627e93 54%,#617e90 54%,#627e93 54%,#607c91 55%,#627e93 55%,#5f7b90 57%,#607c91 59%,#587489 77%,#587489 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #7996a6 0%,#7696a5 1%,#7794a6 7%,#7693a3 7%,#7794a6 8%,#7693a3 9%,#7794a6 9%,#7190a2 17%,#7491a3 17%,#7190a2 18%,#718e9e 22%,#6e8a9f 29%,#6e8b9d 30%,#6d8a9a 30%,#6e8b9d 30%,#6a8799 35%,#6b889a 36%,#6a8799 37%,#678698 38%,#6a8799 38%,#668395 44%,#678398 44%,#668395 45%,#668297 46%,#658294 46%,#668297 46%,#658294 48%,#637f94 52%,#627f91 52%,#627e93 54%,#617e90 54%,#627e93 54%,#607c91 55%,#627e93 55%,#5f7b90 57%,#607c91 59%,#587489 77%,#587489 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7996a6', endColorstr='#587489',GradientType=0 ); /* IE6-9 */
+}
 
 body {
   margin: 80px 0; }
@@ -53,7 +61,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #577489;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -101,7 +109,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #eee;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -149,7 +157,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #577489;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -496,7 +504,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #577489;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
